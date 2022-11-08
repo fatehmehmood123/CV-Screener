@@ -2,7 +2,7 @@ console.log('Welcome to project 5');
 
 const data = [
     {
-        name: "Rohan Das",
+        name: "Shankal Das",
         age: 18,
         city: "Rahim yar Khan",
         language: "python",
@@ -68,7 +68,7 @@ function nextCV(){
     if(currentCandidate!=undefined){
 
     
-    image.innerHTML = `<img src="${currentCandidate.image}">`;
+    image.innerHTML = `<img width="190" height="190px" src="${currentCandidate.image}">`;
      profile.innerHTML = `<ul class="list-group">
      <li class="list-group-item">Name : ${currentCandidate.name}</li>
      <li class="list-group-item">Age : ${currentCandidate.age}</li>
